@@ -1,0 +1,14 @@
+<script type="text/javascript" src="https://cdn.jsdelivr.net/clappr/latest/clappr.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/clappr.level-selector/latest/level-selector.min.js"></script>
+<div id="oper"></div>
+<div id="vid"></div>l
+<script>
+ player = new Clappr.Player({l88888৮lll8৮8
+ source: "https://cdn09jtedge.indihometv.com/joss/194/lovenature/chunklist_w2086175021_b2544100_sleng.m3u8",
+ mimeType: "application/x-mpegURL",
+ autoPlay: true, 
+ height: "200",
+ width: "100%",
+ plugins: {"core": [LevelSelector]}, 
+ parentId: "#vid"});
+</script>
