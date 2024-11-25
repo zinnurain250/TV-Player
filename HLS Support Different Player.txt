@@ -1,0 +1,33 @@
+<html>
+<head>
+    <title>tytle</title>
+    <link href="https://cdn.plyr.io/3.6.8/plyr.css" rel="stylesheet"></link>
+    <script src="https://cdn.plyr.io/3.6.8/plyr.polyfilled.js"></script>
+    <style>
+        .container {
+            margin: 50px auto;
+            max-width: 800px; /* Increased width for better viewing */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow */
+        }
+
+        video {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h6>If there is any problem to watch the video, Please comment.</h6>
+
+    <div class="container">
+        <video id="player">
+            <source src="link" type="application/x-mpegURL"></source>
+
+            <p>Your browser doesn't support HLS video. <a download="" href="YOUR_MP4_FALLBACK_LINK_HERE">Download the video</a> instead.</p>
+        </video>
+    </div>
+
+    <script>
+        const player = new Plyr('#player'); // Use the ID to target the video
+    </script>
+</body>
